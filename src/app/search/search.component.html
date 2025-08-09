@@ -1,0 +1,23 @@
+<div class="search-container">
+    <h1>Search</h1>
+
+    <input
+        type="text"
+        [(ngModel)] = "searchTerm"
+        placeholder="Type to search.."
+        class="search-input"    
+    />
+
+    <div *ngIf="searchTerm" class="results-count">
+        <strong>{{filteredArticles.length}}</strong> posts we found
+    </div>
+    <hr *ngIf="searchTerm">
+    <div class="articles-list">
+        <div *ngFor="let article of filteredArticles" class="article">
+            <h3 [innerHTML]="highlight(article.title)"></h3>
+            <p [innerHTML]="highlight(article.content)"></p>
+        </div>
+
+    </div>
+
+</div>

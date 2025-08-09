@@ -1,0 +1,37 @@
+.search-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.results-count{
+    margin-bottom: 20px;
+}
+
+.article{
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0 2px;
+    display: inline;
+}
+hr{
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
