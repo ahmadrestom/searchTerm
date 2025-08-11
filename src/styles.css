@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0 2px;
+    display: inline;
+}
